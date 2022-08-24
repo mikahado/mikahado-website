@@ -37,7 +37,7 @@ Changes for smartphones:
 }
 
 body {
-  width: 70zem;
+  width: 70em;
   margin-left: auto;
   margin-right: auto;
   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
@@ -70,15 +70,13 @@ a:active {
 .moontxt {
   min-height: 4em;
   color: var(--white);
-  font-size: 3em;
-  text-align: left;
+  font-size: 6em;
+  text-align: center;
 }
 .moon {
-  display: flex;
-  background: url("/imgs/moon.jpg");
+  background: url("/imgs/brainbow2.jpg");
   background-size: cover;
   background-repeat: none;
-  background-position: center;
   background-attachment: fixed;
 }
 
@@ -93,7 +91,7 @@ a:active {
 /* #ID (always unique) .class (reusable)*/
 
 .myface2 {
-  width: 120px;
+  width: 170px;
   border-radius: 30px;
   float: left;
   margin-right: 25px;
@@ -103,8 +101,10 @@ a:active {
 }
 
 .headingbar {
+  text-align: center;
+  width: 500px;
   color: var(--white);
-  background: var(--black);
+  background: var(--gray);
   padding: 8px;
   border-radius: 50px;
 }
