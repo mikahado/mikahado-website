@@ -68,13 +68,21 @@ a:active {
 }
 
 .moontxt {
-  min-height: 4em;
+  height: 3em;
+  font-size: large;
   color: var(--white);
   font-size: 6em;
   text-align: center;
 }
+
+.moontxt2 {
+  color: var(--white);
+  font-size: 1em;
+  text-align: center;
+}
+
 .moon {
-  background: url("/imgs/brainbow2.jpg");
+  background: url("../imgs/moon.jpg");
   background-size: cover;
   background-repeat: none;
   background-attachment: fixed;
